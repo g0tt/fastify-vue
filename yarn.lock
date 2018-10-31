@@ -929,9 +929,18 @@ ajv@^5.3.0:
     fast-json-stable-stringify "^2.0.0"
     json-schema-traverse "^0.3.0"
 
-ajv@^6.0.0, ajv@^6.0.1, ajv@^6.1.0, ajv@^6.5.1, ajv@^6.5.2, ajv@^6.5.3:
+ajv@^6.0.0, ajv@^6.0.1, ajv@^6.1.0, ajv@^6.5.3:
   version "6.5.3"
   resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.5.3.tgz#71a569d189ecf4f4f321224fecb166f071dd90f9"
+  dependencies:
+    fast-deep-equal "^2.0.1"
+    fast-json-stable-stringify "^2.0.0"
+    json-schema-traverse "^0.4.1"
+    uri-js "^4.2.2"
+
+ajv@^6.5.4:
+  version "6.5.4"
+  resolved "https://registry.yarnpkg.com/ajv/-/ajv-6.5.4.tgz#247d5274110db653706b550fcc2b797ca28cfc59"
   dependencies:
     fast-deep-equal "^2.0.1"
     fast-json-stable-stringify "^2.0.0"
@@ -3208,11 +3217,11 @@ fast-json-stable-stringify@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.0.0.tgz#d5142c0caee6b1189f87d3a76111064f86c8bbf2"
 
-fast-json-stringify@^1.5.4:
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/fast-json-stringify/-/fast-json-stringify-1.7.1.tgz#49fb033f073727ef97a5dfd4f50db2d837c965cc"
+fast-json-stringify@^1.8.0:
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/fast-json-stringify/-/fast-json-stringify-1.9.1.tgz#fc4c13fc93d54d21e0deb738e40abe31d35fd756"
   dependencies:
-    ajv "^6.5.1"
+    ajv "^6.5.4"
     deepmerge "^2.1.1"
 
 fast-levenshtein@~2.0.4:
@@ -3229,17 +3238,17 @@ fastify-plugin@^1.2.0:
   dependencies:
     semver "^5.5.0"
 
-fastify@^1.11.2:
-  version "1.11.2"
-  resolved "https://registry.yarnpkg.com/fastify/-/fastify-1.11.2.tgz#7495c8134e21e13dccd6bc6b5d036f187faa276e"
+fastify@^1.13.0:
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/fastify/-/fastify-1.13.0.tgz#1e68bd7bc69257afa989f6ae94c885255087a403"
   dependencies:
     "@types/pino" "^4.16.0"
     abstract-logging "^1.0.0"
-    ajv "^6.5.2"
+    ajv "^6.5.4"
     avvio "^5.8.0"
     end-of-stream "^1.4.1"
-    fast-json-stringify "^1.5.4"
-    find-my-way "^1.15.0"
+    fast-json-stringify "^1.8.0"
+    find-my-way "^1.15.3"
     flatstr "^1.0.8"
     light-my-request "^3.0.0"
     middie "^3.1.0"
@@ -3361,9 +3370,9 @@ find-cache-dir@^2.0.0:
     make-dir "^1.0.0"
     pkg-dir "^3.0.0"
 
-find-my-way@^1.15.0:
-  version "1.15.1"
-  resolved "https://registry.yarnpkg.com/find-my-way/-/find-my-way-1.15.1.tgz#aa76b386be51ff528c548422544ffd91d8f3dec1"
+find-my-way@^1.15.3:
+  version "1.15.4"
+  resolved "https://registry.yarnpkg.com/find-my-way/-/find-my-way-1.15.4.tgz#3b1da909347022e0b5ed94ecaaabf6d99096edd6"
   dependencies:
     fast-decode-uri-component "^1.0.0"
     safe-regex "^1.1.0"
